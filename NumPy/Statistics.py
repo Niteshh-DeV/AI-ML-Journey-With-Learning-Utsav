@@ -14,6 +14,7 @@ std_dev = np.std(data)
 print("Standard Deviation:", std_dev)
 
 # Variance
+# Variance measures how far a set of numbers are spread out from their average value.
 variance_value = np.var(data)
 print("Variance:", variance_value)
 
