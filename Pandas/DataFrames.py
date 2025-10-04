@@ -26,3 +26,5 @@ print(dataframe.loc[1])   # Accessing the second row by label
 # Here .ilok and .loc are used to access rows in a DataFrame.
 # .iloc is primarily integer position based (from 0 to length-1 of the axis), 
 # while .loc is primarily label based, but may also be used with a boolean array
+# The main difference between .iloc and .loc is that .iloc is used for integer-location based indexing,
+# while .loc is used for label-based indexing.
