@@ -3,7 +3,7 @@
 # ----------------------------
 
 import pandas as pd
-
+import matplotlib.pyplot as plt
 # Step 1: Load CSV file
 df = pd.read_csv('students.csv')
 print("🎓 Original Data:")
@@ -52,7 +52,7 @@ print(df)
 # Step 9: Plot Marks Distribution
 print("\n📈 Showing Marks Distribution Chart...")
 df[['Math', 'Science', 'English', 'Computer']].plot(kind='bar', title='Marks Distribution')
-
+plt.show()
 # Step 10: Save Processed Results
 df.to_csv('processed_results.csv', index=False)
 print("\n💾 Processed results saved successfully as 'processed_results.csv'")
