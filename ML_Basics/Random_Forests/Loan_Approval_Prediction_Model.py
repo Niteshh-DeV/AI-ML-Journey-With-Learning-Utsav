@@ -62,6 +62,7 @@ new_applicant = pd.DataFrame({
 })
 
 prediction = model.predict(new_applicant)[0]
+
 import matplotlib.pyplot as plt
 
 # Visualization of the dataset
