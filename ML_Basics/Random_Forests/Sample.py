@@ -23,4 +23,5 @@ y_pred = rf.predict(X_test)
 
 # Evaluation
 print("Accuracy:", accuracy_score(y_test, y_pred))
+# Accuracy Score is used to evaluate the model performance, for example, how many predictions were correct.
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
