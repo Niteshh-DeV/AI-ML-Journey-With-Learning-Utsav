@@ -53,3 +53,25 @@ plt.xlabel('Importance Score')
 plt.ylabel('Feature')
 plt.tight_layout()
 plt.show()
+
+# Residual Error Visualization
+residuals = y_test - y_pred
+
+plt.figure(figsize=(10, 5))
+plt.scatter(y_pred, residuals, alpha=0.5)
+plt.axhline(0, color='red', linestyle='--')
+plt.title('Residuals vs Predicted Values')
+plt.xlabel('Predicted Values')
+plt.ylabel('Residuals')
+plt.tight_layout()
+plt.show()
+
+# Actual vs Predicted Comparison Visualization
+plt.figure(figsize=(10, 5))
+plt.scatter(y_test, y_pred, alpha=0.5)
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], color='red', linestyle='--')
+plt.title('Actual vs Predicted Values')
+plt.xlabel('Actual Values')
+plt.ylabel('Predicted Values')
+plt.tight_layout()
+plt.show()
