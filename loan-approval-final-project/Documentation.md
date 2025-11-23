@@ -96,7 +96,7 @@ How to Run This Project
 
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost joblib
 
-	3.	Open JupyterLab and load the Loan_Prediction_Project.ipynb notebook.
+	3.	Open JupyterLab and load the loan_prediction.ipynb notebook.
 	4.	Run the notebook from start to finish.
 	5.	To test manual predictions, run the manual_input_prediction(best_model, scaler) function and input applicant details when prompted.
 
