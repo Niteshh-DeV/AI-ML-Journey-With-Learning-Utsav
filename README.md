@@ -8,6 +8,17 @@ This repository is a complete learning resource covering the essential foundatio
 
 ## 🗂️ Repository Structure
 
+### 🎯 Final Project - Loan Approval Prediction System
+A comprehensive end-to-end machine learning project demonstrating the complete ML workflow:
+- **Multiple ML Models**: Logistic Regression, Decision Tree, KNN, Random Forest, Gradient Boosting, and XGBoost
+- **Complete Pipeline**: Data exploration, preprocessing, model training, evaluation, and deployment
+- **Model Comparison**: Systematic evaluation and selection of the best-performing model
+- **Interactive Prediction**: Manual input feature for real-time loan approval predictions
+- **Production Ready**: Saved model artifacts using joblib for deployment
+- **Detailed Documentation**: Complete project documentation with visualizations
+
+**Location**: `loan-approval-final-project/` | **Documentation**: `loan-approval-final-project/Documentation.md`
+
 ### 📊 NumPy - Numerical Computing Foundations
 Core Python numerical computing library implementations covering:
 - **Array Operations**: Creating, indexing, slicing, and reshaping arrays
@@ -100,6 +111,7 @@ Comprehensive machine learning implementations and theory:
 - Documentation: `About_XGBoost.md`
 
 #### Real-World Projects
+- **Loan Approval Prediction System** (Final Project): Comprehensive ML pipeline with 6 models, model comparison, and interactive predictions
 - **Student Performance Prediction**: Complete ML pipeline
 - **Customer Subscription Prediction**: AdaBoost implementation
 - **Loan Approval Systems**: Multiple algorithm comparison
@@ -121,6 +133,7 @@ This repository follows a structured learning path:
 
 4. **Week 4**: Machine Learning Fundamentals
    - Implement core ML algorithms from scratch to advanced applications
+   - Complete a comprehensive final project with multiple ML models
 
 ## 🚀 Getting Started
 
@@ -145,6 +158,10 @@ cd AI-ML-Journey-With-Learning-Utsav
 
 # Install required packages
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+
+# For the final project, install additional dependencies
+cd loan-approval-final-project
+pip install -r requirements.txt
 ```
 
 ### Running Examples
@@ -153,6 +170,10 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 python NumPy/arrays.py
 python Pandas/DataFrames.py
 python ML_Basics/Linear_Regression/Implementation_LR1.py
+
+# Run the Final Project Jupyter Notebook
+cd loan-approval-final-project/notebooks
+jupyter lab loan_prediction.ipynb
 ```
 
 ## 🛠️ Technologies Used
@@ -164,15 +185,19 @@ python ML_Basics/Linear_Regression/Implementation_LR1.py
 - **Seaborn**: Statistical data visualization
 - **Scikit-learn**: Machine learning algorithms and tools
 - **XGBoost**: Advanced gradient boosting framework
+- **Joblib**: Model persistence and serialization
+- **JupyterLab**: Interactive development environment
 
 ## 📖 Key Features
 
 - ✅ **Comprehensive Coverage**: From basics to advanced ML algorithms
 - ✅ **Hands-on Projects**: Real-world applications and datasets
+- ✅ **Final Capstone Project**: End-to-end loan approval prediction system with 6 ML models
 - ✅ **Detailed Documentation**: In-depth explanations for each topic
 - ✅ **Well-Structured Code**: Clean, commented, and easy to understand
 - ✅ **Progressive Learning**: Builds knowledge step-by-step
 - ✅ **Practical Examples**: Each concept demonstrated with working code
+- ✅ **Model Persistence**: Saved models ready for deployment
 
 ## 🎓 Learning Outcomes
 
@@ -181,12 +206,15 @@ By exploring this repository, you will:
 - Create professional data visualizations (Matplotlib, Seaborn)
 - Understand core machine learning algorithms
 - Build and evaluate predictive models
+- Compare multiple ML models and select the best performer
 - Work with real-world datasets and projects
-- Develop end-to-end ML solutions
+- Develop end-to-end ML solutions from data exploration to model deployment
+- Save and deploy machine learning models for production use
 
 ## 📝 Documentation
 
 Each major topic includes dedicated markdown documentation:
+- `loan-approval-final-project/Documentation.md` - Complete final project documentation
 - `ML_Basics/About_ML.md` - Machine Learning overview and types
 - `ML_Basics/ML_Workflow.md` - Complete ML workflow guide
 - `Seaborn/About_Seaborn.md` - Seaborn features and capabilities
